@@ -46,6 +46,9 @@ The Hyper-V host uses:
 
 - 1 Physical Network Adapter
 - 2 Hyper-V Virtual Switches
+| Internal | Corp-LAN |
+|----|---------|
+| External | Internet-WAN |
 - Dedicated networking for the lab environment
 - Isolated virtual infrastructure for enterprise workloads
 
