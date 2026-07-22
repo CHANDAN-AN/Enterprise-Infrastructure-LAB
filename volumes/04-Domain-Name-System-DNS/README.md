@@ -1,113 +1,200 @@
-﻿# Volume 4 - Domain Name System (DNS)
+﻿# Volume 4 – DNS Server Configuration
 
-## Phase
+## Overview
 
-Phase 1 - Core Infrastructure
+The Domain Name System (DNS) is a critical component of Active Directory. It enables clients and servers to locate domain controllers, resolve hostnames, and discover essential directory services.
 
-## Status
-
-✅ Completed
+In this volume, DNS was configured on the Domain Controller (DC01) as an Active Directory-integrated DNS server. Forward and reverse lookup zones were created, and DNS functionality was validated to ensure the environment is ready for future infrastructure services.
 
 ---
 
-# Objective
+# Objectives
 
-Deploy and configure Microsoft DNS to provide reliable name resolution for the Enterprise Infrastructure Lab and support Active Directory Domain Services.
+- Install the DNS Server role.
+- Configure an Active Directory-integrated Forward Lookup Zone.
+- Configure a Reverse Lookup Zone.
+- Enable secure dynamic updates.
+- Verify DNS name resolution.
+- Validate Active Directory service records.
 
 ---
 
 # Environment
 
-| Component | Details |
-|----------|---------|
-| DNS Server | DC01 |
+| Component | Value |
+|----------|-------|
+| Server | DC01 |
 | Operating System | Windows Server 2022 Datacenter Evaluation |
 | Domain | CORP.AC-LAB.TOP |
-| DNS Type | Active Directory Integrated |
-| Primary Zone | CORP.AC-LAB.TOP |
+| IP Address | 10.10.10.20 |
+| DNS Server | 10.10.10.20 |
 
 ---
 
-# Purpose
+# DNS Configuration
 
-Microsoft DNS provides name resolution throughout the enterprise environment.
+The following DNS components were configured:
 
-Core responsibilities include:
+- Active Directory-integrated Forward Lookup Zone
+- Reverse Lookup Zone
+- Secure Dynamic Updates
+- Automatic registration of Active Directory service records
+- PTR record for the Domain Controller
 
-- Resolving hostnames to IP addresses
-- Supporting Active Directory authentication
-- Managing forward lookup zones
-- Supporting future reverse lookup zones
-- Providing service record (SRV) registration
-- Supporting Group Policy and domain services
-
----
-
-# Implementation
-
-The DNS role was installed during the Active Directory Domain Services deployment.
-
-Configuration included:
-
-- Active Directory Integrated DNS
-- Primary Forward Lookup Zone
-- Automatic SRV record registration
-- Dynamic DNS updates
-- Domain controller name resolution
+The DNS zones are replicated through Active Directory, providing centralized management and secure updates.
 
 ---
 
-# Services Supported
+# Implemented DNS Zones
 
-DNS provides name resolution for:
+## Forward Lookup Zone
 
-- Active Directory
-- Domain Controllers
-- Group Policy
-- File Servers
-- Application Servers
-- Future enterprise workloads
+```
+CORP.AC-LAB.TOP
+```
+
+Configured as:
+
+- Active Directory Integrated
+- Secure Dynamic Updates Enabled
+
+---
+
+## Reverse Lookup Zone
+
+```
+10.10.10.in-addr.arpa
+```
+
+Configured to support reverse DNS lookups for the 10.10.10.0/24 network.
+
+---
+
+# Active Directory Integration
+
+Once Active Directory Domain Services was installed, DNS automatically created and populated the required service records, including:
+
+- _msdcs
+- _sites
+- _tcp
+- _udp
+
+These records allow domain-joined clients to locate Domain Controllers and Active Directory services automatically.
 
 ---
 
 # Validation
 
-The deployment was validated by confirming:
+The DNS deployment was validated by confirming:
 
-- DNS service operational
-- Domain zone created
-- Forward lookup zone functioning
-- Domain controller registered
-- Hostname resolution successful
-- Active Directory dependency functioning correctly
+- Forward DNS resolution
+- Reverse DNS resolution
+- Active Directory SRV record registration
+- Microsoft DNS diagnostics
+
+All validation tests completed successfully.
+
+---
+
+# Verification Commands
+
+## Verify Forward Lookup
+
+```powershell
+Resolve-DnsName dc01.corp.ac-lab.top
+```
+
+Expected Result:
+
+```
+10.10.10.20
+```
+
+---
+
+## Verify Reverse Lookup
+
+```powershell
+Resolve-DnsName 10.10.10.20
+```
+
+Expected Result:
+
+```
+DC01.CORP.AC-LAB.TOP
+```
+
+---
+
+## Verify Active Directory SRV Records
+
+```powershell
+nslookup
+```
+
+```text
+set type=SRV
+_ldap._tcp.dc._msdcs.corp.ac-lab.top
+```
+
+Expected Result:
+
+```
+svr hostname = dc01.corp.ac-lab.top
+port = 389
+```
+
+---
+
+## Run DNS Diagnostics
+
+```powershell
+dcdiag /test:dns
+```
+
+Expected Result:
+
+```
+passed test DNS
+```
+
+---
+
+# DNS Validation Results
+
+The following tests were successfully completed:
+
+- Forward lookup resolution
+- Reverse lookup resolution
+- LDAP SRV record discovery
+- Active Directory DNS diagnostics
+- DNS service health verification
+
+---
+
+# Benefits
+
+The configured DNS infrastructure provides:
+
+- Reliable hostname resolution
+- Active Directory service discovery
+- Automatic Domain Controller registration
+- Secure dynamic DNS updates
+- Support for future DHCP integration
+- Foundation for domain-joined client computers
 
 ---
 
 # Lessons Learned
 
-DNS is one of the most critical services within a Microsoft enterprise environment.
+DNS is one of the most critical services in an Active Directory environment. Proper DNS configuration ensures clients can locate Domain Controllers, authenticate users, apply Group Policies, and access directory services.
 
-Without properly functioning DNS, users cannot authenticate, Group Policy cannot process correctly, and many Microsoft services fail to operate.
-
-For this reason, Microsoft Active Directory is designed around DNS rather than traditional NetBIOS name resolution.
-
----
-
-# Screenshots
-
-_To be added._
-
-Suggested screenshots:
-
-- DNS Manager
-- Forward Lookup Zone
-- Host (A) Records
-- SRV Records
-- DNS Console Overview
+Validating forward lookup, reverse lookup, SRV records, and DNS diagnostics confirms the environment is functioning correctly before deploying additional infrastructure services.
 
 ---
 
 # Related Volumes
 
-- Volume 3 – Domain Controller (DC01)
+- Volume 3 – Active Directory Domain Services Deployment
 - Volume 5 – Active Directory Organizational Unit Structure
+- Volume 6 – DHCP Server Deployment
