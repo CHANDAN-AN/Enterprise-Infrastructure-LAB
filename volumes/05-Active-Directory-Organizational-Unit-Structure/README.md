@@ -40,6 +40,20 @@ A well-designed OU hierarchy enables:
 
 ---
 
+# Design Considerations
+
+The Organizational Unit structure was designed around business functions instead of physical locations.
+
+This approach provides:
+
+- Easier Group Policy deployment
+- Simpler administrative delegation
+- Better separation of privileged accounts
+- Logical organization of servers and workstations
+- Scalability for future infrastructure growth
+
+---
+
 # Design Principles
 
 The Active Directory structure was designed using Microsoft's best practices by separating objects according to their administrative function rather than their physical location.
@@ -52,29 +66,68 @@ This approach simplifies future expansion and makes Group Policy management sign
 
 The following Organizational Units were created to support enterprise administration.
 
-```
+# Organizational Structure
+
+The Active Directory environment is organized using a functional Organizational Unit (OU) hierarchy. This structure separates administrative resources, departments, servers, workstations, and security groups to simplify management and support future growth.
+
+```text
 CORP.AC-LAB.TOP
 │
+├── Administration
+│   ├── Tier 0
+│   ├── Admin Accounts
+│   ├── Admin Groups
+│   └── Service Accounts
+│
+├── Departments
+│   ├── Executives
+│   ├── Finance
+│   ├── HR
+│   ├── IT
+│   ├── Operations
+│   └── Sales
+│
 ├── Servers
+│   ├── Infrastructure
+│   ├── Domain Controllers
+│   ├── File Servers
+│   ├── Database Servers
+│   ├── Web Servers
+│   ├── Monitoring
+│   └── Backup
+│
 ├── Workstations
-├── Users
+│   ├── Finance
+│   ├── HR
+│   ├── IT
+│   ├── Operations
+│   ├── Sales
+│   ├── Kiosks
+│   └── Test Machines
+│
 ├── Groups
+│   ├── Administrative Groups
+│   ├── Department Groups
+│   ├── Distribution Groups
+│   └── Security Groups
+│
 ├── Service Accounts
-└── Administrative Accounts
+└── Disabled Objects
 ```
 
 ---
 
 # Benefits
 
-The implemented structure provides:
+The implemented Organizational Unit structure provides:
 
-- Centralized administration
-- Easier Group Policy targeting
-- Separation of privileged accounts
-- Improved security management
-- Consistent resource organization
-- Better scalability for future infrastructure growth
+- Dedicated administration containers for privileged accounts
+- Department-specific containers for users
+- Separate Organizational Units for production servers
+- Department-based workstation management
+- Centralized management of security and distribution groups
+- Isolated containers for disabled objects and service accounts
+- Simplified future Group Policy deployment
 
 ---
 
@@ -82,18 +135,19 @@ The implemented structure provides:
 
 The deployment was validated by confirming:
 
-- Organizational Units created successfully
-- Objects can be moved into appropriate OUs
-- Active Directory replication completed successfully
-- OU hierarchy visible in Active Directory Users and Computers
+- All Organizational Units were successfully created.
+- The OU hierarchy is visible in Active Directory Users and Computers.
+- Administrative, departmental, server, and workstation containers are organized correctly.
+- Objects can be placed into their respective Organizational Units.
+- Active Directory replication completed successfully.
 
 ---
 
 # Lessons Learned
 
-Designing the Organizational Unit structure before deploying additional servers and users establishes a scalable administrative framework.
+Designing the Organizational Unit structure before deploying users, computers, and Group Policies creates a scalable Active Directory environment.
 
-As the environment grows, Group Policy Objects (GPOs), delegated permissions, and security settings can be applied efficiently to specific Organizational Units without affecting unrelated systems.
+Separating administrative resources, departments, servers, and workstations allows future security policies and delegated administration to be implemented without restructuring the directory.
 
 ---
 
