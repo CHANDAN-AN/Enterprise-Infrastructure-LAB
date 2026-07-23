@@ -86,14 +86,7 @@ LICENSE
 ---
 
 ## Current Progress
-
-| Volume | Status |
-|---------|--------|
-| Volume 01 - Hyper-V Host | ✅ Complete |
-| Volume 02 - Sophos Firewall | ✅ Complete |
-| Volume 03 - Domain Controller | ✅ Complete |
-| Volume 04 - DNS | ✅ Complete |
-| Volume 05 - OU Structure | ✅ Complete |
+Refer to ROADMAP.MD
 
 ---
 
