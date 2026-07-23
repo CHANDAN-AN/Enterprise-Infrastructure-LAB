@@ -103,29 +103,29 @@ This roadmap tracks every implementation task required to complete the Enterpris
 | | Push changes to GitHub | ☑ |
 | | Review implementation | ☑ |
 | | Mark volume complete | ☑ |
-| **Volume 06**<br>Dynamic Host Configuration Protocol (DHCP) | Review DHCP design | ☐ |
-| | Install DHCP Server Role | ☐ |
-| | Install DHCP Management Tools | ☐ |
-| | Authorize DHCP Server in Active Directory | ☐ |
-| | Create IPv4 Scope | ☐ |
-| | Configure Address Pool | ☐ |
-| | Configure Subnet Mask | ☐ |
-| | Configure Exclusion Range | ☐ |
-| | Configure Lease Duration | ☐ |
-| | Configure Scope Option 003 (Gateway) | ☐ |
-| | Configure Scope Option 006 (DNS Server) | ☐ |
-| | Configure Scope Option 015 (DNS Suffix) | ☐ |
-| | Activate DHCP Scope | ☐ |
-| | Validate DHCP service | ☐ |
-| | Validate client lease assignment | ☐ |
-| | Validate DNS registration | ☐ |
-| | Capture implementation screenshots | ☐ |
-| | Update network diagram | ☐ |
-| | Write Volume README | ☐ |
-| | Commit changes to GitHub | ☐ |
-| | Push changes to GitHub | ☐ |
-| | Review implementation | ☐ |
-| | Mark volume complete | ☐ |
+| **Volume 06**<br>Dynamic Host Configuration Protocol (DHCP) | Review DHCP design | ☑ |
+| | Install DHCP Server Role | ☑ |
+| | Install DHCP Management Tools | ☑ |
+| | Authorize DHCP Server in Active Directory | ☑ |
+| | Create IPv4 Scope | ☑ |
+| | Configure Address Pool | ☑ |
+| | Configure Subnet Mask | ☑ |
+| | Configure Exclusion Range | ☑ |
+| | Configure Lease Duration | ☑ |
+| | Configure Scope Option 003 (Gateway) | ☑ |
+| | Configure Scope Option 006 (DNS Server) | ☑ |
+| | Configure Scope Option 015 (DNS Suffix) | ☑ |
+| | Activate DHCP Scope | ☑ |
+| | Validate DHCP service | ☑ |
+| | Validate client lease assignment | ☑ |
+| | Validate DNS registration | ☑ |
+| | Capture implementation screenshots | ☑ |
+| | Update network diagram | ☑ |
+| | Write Volume README | ☑ |
+| | Commit changes to GitHub | ☑ |
+| | Push changes to GitHub | ☑ |
+| | Review implementation | ☑ |
+| | Mark volume complete | ☑ |
 | **Volume 07**<br>Windows 11 Enterprise Client | Create Windows 11 Enterprise VM | ☐ |
 | | Configure VM resources | ☐ |
 | | Install Windows 11 Enterprise | ☐ |
