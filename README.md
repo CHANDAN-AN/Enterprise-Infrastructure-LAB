@@ -86,8 +86,9 @@ LICENSE
 ---
 
 ## Current Progress
-Refer to ROADMAP.MD
+The complete implementation roadmap containing all 72 volumes and every implementation task can be found here:
 
+➡️ **[ROADMAP.md](ROADMAP.md)**
 ---
 
 ## Repository Status
