@@ -24,7 +24,7 @@ Upon completion of this volume, you will be able to:
 
 | Component | Value |
 |-----------|-------|
-| Client Name | WIN11-01 |
+| Client Name | CLIENT-01 |
 | Operating System | Windows 11 Enterprise |
 | Domain | corp.ac-lab.top |
 | Domain Controller | DC01 |
@@ -63,7 +63,7 @@ Verify:
 - Client has received an IP address
 - Default Gateway is **10.10.10.1**
 - DNS Server is **10.10.10.20**
-- Computer name is **WIN11-01**
+- Computer name is **CLIENT-01**
 
 ---
 
@@ -273,7 +273,7 @@ hostname
 Expected:
 
 ```
-WIN11-01
+CLIENT-01
 ```
 
 ---
@@ -311,7 +311,7 @@ Computers
 Verify:
 
 ```
-WIN11-01
+CLIENT-01
 ```
 
 exists.
@@ -319,7 +319,7 @@ exists.
 You may also use:
 
 ```powershell
-Get-ADComputer WIN11-01
+Get-ADComputer CLIENT-01
 ```
 
 ---
@@ -342,7 +342,7 @@ Forward Lookup Zones
 Verify the host record:
 
 ```
-WIN11-01
+CLIENT-01
 ```
 
 exists.
@@ -450,7 +450,7 @@ hostname
 
 Test-ComputerSecureChannel
 
-Get-ADComputer WIN11-01
+Get-ADComputer CLIENT-01
 ```
 
 ---
