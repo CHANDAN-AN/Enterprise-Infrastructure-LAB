@@ -65,9 +65,6 @@ This approach simplifies future expansion and makes Group Policy management sign
 # Organizational Structure
 
 The following Organizational Units were created to support enterprise administration.
-
-# Organizational Structure
-
 The Active Directory environment is organized using a functional Organizational Unit (OU) hierarchy. This structure separates administrative resources, departments, servers, workstations, and security groups to simplify management and support future growth.
 
 ```text
