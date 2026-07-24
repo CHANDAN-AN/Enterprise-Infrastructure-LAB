@@ -7,7 +7,7 @@ This roadmap tracks every implementation task required to complete the Enterpris
 ---
 
 # Master Task Tracker
-
+☑
 | Volume | Implementation Task | Status |
 |---------|---------------------|:------:|
 | **Volume 01**<br>Hyper-V Host Deployment | Verify hardware compatibility | ☑ |
@@ -126,38 +126,38 @@ This roadmap tracks every implementation task required to complete the Enterpris
 | | Push changes to GitHub | ☑ |
 | | Review implementation | ☑ |
 | | Mark volume complete | ☑ |
-| **Volume 07**<br>Windows 11 Enterprise Client | Create Windows 11 Enterprise VM | ☐ |
-| | Configure VM resources | ☐ |
-| | Install Windows 11 Enterprise | ☐ |
-| | Install Hyper-V Integration Services | ☐ |
-| | Configure computer name | ☐ |
-| | Configure static IP address | ☐ |
-| | Configure DNS server | ☐ |
-| | Verify network connectivity | ☐ |
-| | Install Windows Updates | ☐ |
-| | Verify Internet connectivity | ☐ |
-| | Capture implementation screenshots | ☐ |
-| | Write Volume README | ☐ |
-| | Commit changes to GitHub | ☐ |
-| | Push changes to GitHub | ☐ |
-| | Review implementation | ☐ |
-| | Mark volume complete | ☐ |
-| **Volume 08**<br>Join Client to Domain | Verify DNS connectivity | ☐ |
-| | Verify Domain Controller connectivity | ☐ |
-| | Join Windows 11 to domain | ☐ |
-| | Restart workstation | ☐ |
-| | Verify domain membership | ☐ |
-| | Log in using domain account | ☐ |
-| | Verify secure channel | ☐ |
-| | Validate Active Directory computer object | ☐ |
-| | Move computer to correct OU | ☐ |
-| | Verify Group Policy communication | ☐ |
-| | Capture implementation screenshots | ☐ |
-| | Write Volume README | ☐ |
-| | Commit changes to GitHub | ☐ |
-| | Push changes to GitHub | ☐ |
-| | Review implementation | ☐ |
-| | Mark volume complete | ☐ |
+| **Volume 07**<br>Windows 11 Enterprise Client | Create Windows 11 Enterprise VM | ☑ |
+| | Configure VM resources | ☑ |
+| | Install Windows 11 Enterprise | ☑ |
+| | Install Hyper-V Integration Services | ☑ |
+| | Configure computer name | ☑ |
+| | Configure static IP address | ☑ |
+| | Configure DNS server | ☑ |
+| | Verify network connectivity | ☑ |
+| | Install Windows Updates | ☑ |
+| | Verify Internet connectivity | ☑ |
+| | Capture implementation screenshots | ☑ |
+| | Write Volume README | ☑ |
+| | Commit changes to GitHub | ☑ |
+| | Push changes to GitHub | ☑ |
+| | Review implementation | ☑ |
+| | Mark volume complete | ☑ |
+| **Volume 08**<br>Join Client to Domain | Verify DNS connectivity | ☑ |
+| | Verify Domain Controller connectivity | ☑ |
+| | Join Windows 11 to domain | ☑ |
+| | Restart workstation | ☑ |
+| | Verify domain membership | ☑ |
+| | Log in using domain account | ☑ |
+| | Verify secure channel | ☑ |
+| | Validate Active Directory computer object | ☑ |
+| | Move computer to correct OU | ☑ |
+| | Verify Group Policy communication | ☑ |
+| | Capture implementation screenshots | ☑ |
+| | Write Volume README | ☑ |
+| | Commit changes to GitHub | ☑ |
+| | Push changes to GitHub | ☑ |
+| | Review implementation | ☑ |
+| | Mark volume complete | ☑ |
 | **Volume 09**<br>Administrative Accounts | Design administrative account strategy | ☐ |
 | | Create Domain Administrator account | ☐ |
 | | Create Server Administrator account | ☐ |
