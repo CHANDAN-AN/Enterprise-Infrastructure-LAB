@@ -158,22 +158,22 @@ This roadmap tracks every implementation task required to complete the Enterpris
 | | Push changes to GitHub | ☑ |
 | | Review implementation | ☑ |
 | | Mark volume complete | ☑ |
-| **Volume 09**<br>Administrative Accounts | Design administrative account strategy | ☐ |
-| | Create Domain Administrator account | ☐ |
-| | Create Server Administrator account | ☐ |
-| | Create Workstation Administrator account | ☐ |
-| | Create Service Administrator account | ☐ |
-| | Configure account descriptions | ☐ |
-| | Configure password policies | ☐ |
-| | Configure account permissions | ☐ |
-| | Verify administrative logon | ☐ |
-| | Validate administrative access | ☐ |
-| | Capture implementation screenshots | ☐ |
-| | Write Volume README | ☐ |
-| | Commit changes to GitHub | ☐ |
-| | Push changes to GitHub | ☐ |
-| | Review implementation | ☐ |
-| | Mark volume complete | ☐ |
+| **Volume 09**<br>Administrative Accounts | Design administrative account strategy | ☑ |
+| | Create Domain Administrator account | ☑ |
+| | Create Server Administrator account | ☑ |
+| | Create Workstation Administrator account | ☑ |
+| | Create Service Administrator account | ☑ |
+| | Configure account descriptions | ☑ |
+| | Configure password policies | ☑ |
+| | Configure account permissions | ☑ |
+| | Verify administrative logon | ☑ |
+| | Validate administrative access | ☑ |
+| | Capture implementation screenshots | ☑ |
+| | Write Volume README | ☑ |
+| | Commit changes to GitHub | ☑ |
+| | Push changes to GitHub | ☑ |
+| | Review implementation | ☑ |
+| | Mark volume complete | ☑ |
 | **Volume 10**<br>Security Groups | Design security group strategy | ☐ |
 | | Create Administrative Groups | ☐ |
 | | Create Server Groups | ☐ |
