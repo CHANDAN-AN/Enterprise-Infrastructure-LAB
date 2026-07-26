@@ -7,7 +7,7 @@ Phase 1 - Core Infrastructure
 ## Status
 
 ✅ Completed
-
+https://github.com/CHANDAN-AN/Enterprise-Infrastructure-LAB/blob/main/volumes/02-Sophos-Firewall-Deployment/screenshots/001%20(4).png
 ---
 
 # Objective
