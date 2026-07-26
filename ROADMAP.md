@@ -174,38 +174,38 @@ This roadmap tracks every implementation task required to complete the Enterpris
 | | Push changes to GitHub | ☑ |
 | | Review implementation | ☑ |
 | | Mark volume complete | ☑ |
-| **Volume 10**<br>Security Groups | Design security group strategy | ☐ |
-| | Create Administrative Groups | ☐ |
-| | Create Server Groups | ☐ |
-| | Create Workstation Groups | ☐ |
-| | Create User Groups | ☐ |
-| | Create File Share Groups | ☐ |
-| | Configure group scopes | ☐ |
-| | Configure group memberships | ☐ |
-| | Verify group assignments | ☐ |
-| | Validate permissions | ☐ |
-| | Capture implementation screenshots | ☐ |
-| | Write Volume README | ☐ |
-| | Commit changes to GitHub | ☐ |
-| | Push changes to GitHub | ☐ |
-| | Review implementation | ☐ |
-| | Mark volume complete | ☐ |
-| **Volume 11**<br>Group Policy Foundation | Review Group Policy design | ☐ |
-| | Create Group Policy Objects | ☐ |
-| | Configure password policy | ☐ |
-| | Configure account lockout policy | ☐ |
-| | Configure Windows Update policy | ☐ |
-| | Configure Control Panel restrictions | ☐ |
-| | Configure Desktop policies | ☐ |
-| | Link GPOs to Organizational Units | ☐ |
-| | Verify policy application | ☐ |
-| | Validate Resultant Set of Policy (RSoP) | ☐ |
-| | Capture implementation screenshots | ☐ |
-| | Write Volume README | ☐ |
-| | Commit changes to GitHub | ☐ |
-| | Push changes to GitHub | ☐ |
-| | Review implementation | ☐ |
-| | Mark volume complete | ☐ |
+| **Volume 10**<br>Security Groups | Design security group strategy | ☑ |
+| | Create Administrative Groups | ☑ |
+| | Create Server Groups | ☑ |
+| | Create Workstation Groups | ☑ |
+| | Create User Groups | ☑ |
+| | Create File Share Groups | ☑ |
+| | Configure group scopes | ☑ |
+| | Configure group memberships | ☑ |
+| | Verify group assignments | ☑ |
+| | Validate permissions | ☑ |
+| | Capture implementation screenshots | ☑ |
+| | Write Volume README | ☑ |
+| | Commit changes to GitHub | ☑ |
+| | Push changes to GitHub | ☑ |
+| | Review implementation | ☑ |
+| | Mark volume complete | ☑ |
+| **Volume 11**<br>Group Policy Foundation | Review Group Policy design | ☑ |
+| | Create Group Policy Objects | ☑ |
+| | Configure password policy | ☑ |
+| | Configure account lockout policy | ☑ |
+| | Configure Windows Update policy | ☑ |
+| | Configure Control Panel restrictions | ☑ |
+| | Configure Desktop policies | ☑ |
+| | Link GPOs to Organizational Units | ☑ |
+| | Verify policy application | ☑ |
+| | Validate Resultant Set of Policy (RSoP) | ☑ |
+| | Capture implementation screenshots | ☑ |
+| | Write Volume README | ☑ |
+| | Commit changes to GitHub | ☑ |
+| | Push changes to GitHub | ☑ |
+| | Review implementation | ☑ |
+| | Mark volume complete | ☑ |
 | **Volume 12**<br>PowerShell Administration | Install PowerShell modules | ☐ |
 | | Configure PowerShell execution policy | ☐ |
 | | Configure PowerShell profile | ☐ |
