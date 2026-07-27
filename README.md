@@ -1,71 +1,159 @@
-# Enterprise Infrastructure Lab
+<div align="center">
 
-> Building a production-inspired enterprise infrastructure from the ground up using industry best practices.
+# 🏢 Enterprise Infrastructure Lab
 
----
+### Production-Inspired Hybrid Enterprise Infrastructure
 
-## Project Overview
-
-This repository documents the complete design, implementation, automation, and management of an enterprise infrastructure lab built on Hyper-V.
-
-The objective is to simulate a real-world corporate IT environment while following industry standards for infrastructure engineering, systems administration, security, networking, automation, and documentation.
-
-Every configuration, screenshot, script, validation step, and design decision is documented throughout this project.
+Building a complete enterprise environment from the ground up using industry-standard technologies, security best practices and Infrastructure as Code.
 
 ---
 
-## Objectives
+[![Windows Server](https://img.shields.io/badge/Windows_Server-2022-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#)
+[![Hyper-V](https://img.shields.io/badge/Hyper--V-Virtualization-0089D6?style=for-the-badge&logo=windows&logoColor=white)](#)
+[![Azure](https://img.shields.io/badge/Microsoft_Azure-Cloud-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](#)
+[![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](#)
 
-- Build an enterprise infrastructure from scratch
-- Follow production-ready deployment practices
-- Document every implementation step
-- Automate repetitive tasks using PowerShell
-- Implement security best practices
-- Develop Infrastructure as Code where applicable
-- Create a professional portfolio demonstrating enterprise infrastructure engineering skills
+[![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](#)
+[![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
+[![Linux](https://img.shields.io/badge/Linux-Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](#)
+[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](#)
+
+</div>
 
 ---
 
-## Technology Stack
+# 📖 Project Overview
 
-### Infrastructure
+This repository documents the design, deployment and operation of a production-inspired enterprise infrastructure built entirely from scratch.
+
+Rather than showcasing isolated technologies, this project demonstrates how enterprise platforms are planned, deployed, integrated, secured and documented as a complete environment.
+
+Every implementation is fully documented with architecture decisions, configuration steps, validation procedures and supporting documentation.
+
+---
+
+# 🚀 What this project demonstrates
+
+- Enterprise Windows Infrastructure
+- Active Directory Domain Services
+- Enterprise Networking
+- Windows & Linux Administration
+- Hybrid Cloud Integration
+- Infrastructure Automation
+- Security Hardening
+- Identity & Access Management
+- Enterprise Monitoring
+- Backup & Disaster Recovery
+- Operational Documentation
+- DevOps Foundations
+
+---
+
+# 🛠 Enterprise Technology Stack
+
+### Virtualization
 
 - Hyper-V
-- Windows Server
+
+### Windows Infrastructure
+
+- Windows Server 2022
+- Windows 11 Enterprise
 - Active Directory
 - DNS
 - DHCP
 - Group Policy
+- DFS
+- WSUS
+- BitLocker
+- PKI (AD CS)
+- Remote Desktop Services
 
-### Networking
+### Linux
 
-- Sophos Firewall
-- VLANs
-- Routing
-- VPN
-- Network Segmentation
-
-### Automation
-
-- PowerShell
-- Bash
-- Terraform
+- Ubuntu Server
+- SSH
+- Samba
+- NFS
+- Apache
+- Nginx
+- MariaDB
 
 ### Cloud
 
 - Microsoft Azure
-- Amazon Web Services (AWS)
+- Microsoft Entra ID
+- Microsoft Intune
+- Microsoft Defender
+- Microsoft 365
+- Azure Backup
+- Azure Monitor
+- Azure Site Recovery
 
-### Documentation
+### Automation & DevOps
 
-- Git
-- GitHub
-- Markdown
-- Notion
+- PowerShell
+- Bash
+- Terraform
+- Ansible
+- Docker
+- Portainer
+- GitHub Actions
+
+### Monitoring
+
+- Zabbix
+- Grafana
+- Windows Event Forwarding
+
+### Backup
+
+- Veeam Backup & Replication
 
 ---
 
-## Repository Structure
+# 📊 Project Metrics
+
+| Category | Value |
+|-----------|------:|
+| 🏗 Implementation Phases | **12** |
+| 📚 Implementation Volumes | **72** |
+| 💻 Enterprise Technologies | **30+** |
+| 🖥 Servers | Windows & Linux |
+| ☁ Cloud Platform | Microsoft Azure |
+| ⚙ Automation | PowerShell, Terraform & Ansible |
+| 📖 Documentation | Step-by-Step |
+| 🔐 Security | Enterprise Best Practices |
+
+---
+
+# 🏛 Enterprise Architecture
+
+> **Coming soon**
+
+A complete enterprise architecture diagram illustrating the Hyper-V host, Active Directory, networking, cloud integration, monitoring, automation and disaster recovery design.
+
+---
+
+# 🗺 Project Roadmap
+
+The implementation is organised into **12 structured phases** comprising **72 implementation volumes**.
+
+Each volume includes:
+
+- Planning
+- Deployment
+- Configuration
+- Validation
+- Documentation
+- Deliverables
+
+📘 **View the complete implementation roadmap:**  
+➡️ **[ROADMAP.md](ROADMAP.md)**
+
+---
+
+# 📂 Repository Structure
 
 ```text
 assets/
@@ -85,14 +173,18 @@ LICENSE
 
 ---
 
-## Current Progress
-The complete implementation roadmap containing all 72 volumes and every implementation task can be found here:
+# 🚧 Project Status
 
-➡️ **[ROADMAP.md](ROADMAP.md)**
+**Work in Progress**
+
+The Enterprise Infrastructure Lab is being implemented progressively following the published roadmap. Each completed volume is fully documented and validated before progressing to the next phase.
+
 ---
 
-## Repository Status
+<div align="center">
 
-🚧 Work in Progress
+**Designed and implemented by Chandan Anuth**
 
-This repository is actively being developed and expanded as additional infrastructure components are implemented.
+Building enterprise infrastructure one volume at a time.
+
+</div>
