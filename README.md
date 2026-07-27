@@ -51,64 +51,16 @@ Every implementation is fully documented with architecture decisions, configurat
 
 # 🛠 Enterprise Technology Stack
 
-### Virtualization
-
-- Hyper-V
-
-### Windows Infrastructure
-
-- Windows Server 2022
-- Windows 11 Enterprise
-- Active Directory
-- DNS
-- DHCP
-- Group Policy
-- DFS
-- WSUS
-- BitLocker
-- PKI (AD CS)
-- Remote Desktop Services
-
-### Linux
-
-- Ubuntu Server
-- SSH
-- Samba
-- NFS
-- Apache
-- Nginx
-- MariaDB
-
-### Cloud
-
-- Microsoft Azure
-- Microsoft Entra ID
-- Microsoft Intune
-- Microsoft Defender
-- Microsoft 365
-- Azure Backup
-- Azure Monitor
-- Azure Site Recovery
-
-### Automation & DevOps
-
-- PowerShell
-- Bash
-- Terraform
-- Ansible
-- Docker
-- Portainer
-- GitHub Actions
-
-### Monitoring
-
-- Zabbix
-- Grafana
-- Windows Event Forwarding
-
-### Backup
-
-- Veeam Backup & Replication
+| Category | Technologies |
+|-----------|--------------|
+| 🖥 **Virtualization** | Hyper-V |
+| 🏢 **Windows Infrastructure** | Windows Server 2022 • Windows 11 Enterprise • Active Directory • DNS • DHCP • Group Policy • DFS • WSUS • PKI (AD CS) • BitLocker • RDS |
+| 🐧 **Linux** | Ubuntu Server • SSH • Samba • NFS • Apache • Nginx • MariaDB |
+| ☁ **Cloud** | Microsoft Azure • Microsoft Entra ID • Microsoft Intune • Microsoft Defender • Microsoft 365 • Azure Backup • Azure Monitor • Azure Site Recovery |
+| ⚙ **Automation & DevOps** | PowerShell • Bash • Terraform • Ansible • Docker • Portainer • GitHub Actions |
+| 📊 **Monitoring** | Zabbix • Grafana • Windows Event Forwarding |
+| 💾 **Backup** | Veeam Backup & Replication |
+| 📚 **Documentation** | Git • GitHub • Markdown • Notion |
 
 ---
 
