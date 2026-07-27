@@ -1,5 +1,100 @@
 # 🚀 Phase 1 – Core Infrastructure
 
+<details>
+<summary>☑ <strong>Volume 01 – Hyper-V Host Deployment</strong></summary>
+
+## Objective
+Deploy and prepare the physical Hyper-V host that will serve as the foundation for the Enterprise Infrastructure Lab.
+
+### Planning
+- Hardware validation
+- Hypervisor design
+- Storage layout planning
+- Network design review
+
+### Operating System
+- Install Windows Server 2022 Datacenter
+- Configure server identity
+- Apply operating system updates
+- Configure base operating system settings
+
+### Hyper-V Configuration
+- Install Hyper-V role
+- Configure Hyper-V host settings
+- Configure virtual machine storage
+- Configure checkpoint strategy
+
+### Virtual Networking
+- Create Enterprise LAN virtual switch
+- Create Internet/WAN virtual switch
+- Validate virtual switch connectivity
+
+### Host Optimization
+- Configure performance settings
+- Configure Windows Defender exclusions
+- Configure time synchronization
+- Validate Hyper-V services
+
+### Validation
+- Verify virtualization functionality
+- Verify network connectivity
+- Verify storage configuration
+- Perform post-installation health checks
+
+### Documentation
+- Capture deployment screenshots
+- Update architecture diagrams
+- Publish Volume documentation
+- Commit changes to GitHub
+
+</details>
+
+---
+
+<details>
+<summary>☑ <strong>Volume 02 – Sophos Firewall Deployment</strong></summary>
+
+## Objective
+Deploy Sophos Firewall Home Edition as the enterprise perimeter firewall providing routing, NAT, security policies and controlled Internet access.
+
+### Virtual Machine Deployment
+- Create Sophos virtual machine
+- Allocate production resources
+- Configure virtual networking
+- Prepare installation media
+
+### Initial Deployment
+- Install Sophos Firewall
+- Complete initial setup wizard
+- Configure administrator access
+- Configure appliance identity
+
+### Network Configuration
+- Configure WAN interface
+- Configure LAN interface
+- Configure gateway
+- Configure DNS forwarding
+
+### Security Configuration
+- Configure firewall rules
+- Configure NAT policies
+- Configure network services
+- Configure logging
+
+### Connectivity
+- Validate Internet connectivity
+- Validate LAN routing
+- Validate DNS resolution
+- Validate firewall operation
+
+### Documentation
+- Capture deployment screenshots
+- Update network architecture
+- Publish Volume documentation
+- Commit changes to GitHub
+
+</details>
+
 ---
 
 <details>
@@ -281,6 +376,7 @@ Deploy Dynamic Host Configuration Protocol (DHCP) services providing centralized
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 2 – Windows Enterprise Infrastructure
 
 ---
@@ -682,6 +778,7 @@ Prepare the PowerShell administration environment that will be used throughout t
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 3 – Enterprise File Services
 
 ---
@@ -1095,6 +1192,7 @@ Deploy an Enterprise Public Key Infrastructure (PKI) providing digital certifica
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 4 – Enterprise Management & Security
 
 ---
@@ -1470,6 +1568,7 @@ Harden Windows infrastructure by reducing attack surface, strengthening system s
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 5 – Linux Infrastructure Platform
 
 ---
@@ -1868,6 +1967,7 @@ Deploy MariaDB as the enterprise relational database platform supporting web app
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 6 – Containerization & Linux Operations
 
 ---
@@ -2265,6 +2365,7 @@ Establish standardized Linux administration practices to simplify ongoing operat
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 7 – Microsoft Cloud Integration
 
 ---
@@ -2656,6 +2757,7 @@ Validate the complete hybrid identity environment to ensure seamless authenticat
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 8 – Microsoft Azure Infrastructure
 
 ---
@@ -3048,6 +3150,7 @@ Implement Azure Site Recovery (ASR) to establish disaster recovery capabilities 
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 9 – Enterprise Monitoring & Operations
 
 ---
@@ -3451,6 +3554,7 @@ Perform a comprehensive operational health assessment to validate that all deplo
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 10 – Backup, Disaster Recovery & Business Continuity
 
 ---
@@ -3846,6 +3950,7 @@ Perform a full disaster recovery exercise to validate enterprise recovery proced
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 11 – Infrastructure Automation & DevOps
 
 ---
@@ -4240,6 +4345,7 @@ Automate the generation and maintenance of infrastructure documentation to ensur
 - Volume documentation completed
 
 </details>
+
 # 🚀 Phase 12 – Enterprise Operations, Governance & Project Completion
 
 ---
