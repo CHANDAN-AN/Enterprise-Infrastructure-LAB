@@ -97,8 +97,6 @@ Deploy Sophos Firewall Home Edition as the enterprise perimeter firewall providi
 
 </details>
 
-# 🚀 Phase 1 – Core Infrastructure
-
 ---
 
 <details>
