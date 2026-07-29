@@ -1,10 +1,10 @@
-﻿# Volume 17
+﻿# Volume 72
 
-## Distributed File System Replication (DFS Replication)
+## Operations Manual
 
 ### Phase
 
-Phase 2 - Windows Infrastructure
+Phase 12 - Operations & Documentation
 
 ### Status
 
@@ -14,7 +14,7 @@ planned
 
 ## Objective
 
-Configure DFS Replication.
+Create the complete enterprise operations manual.
 
 ---
 
