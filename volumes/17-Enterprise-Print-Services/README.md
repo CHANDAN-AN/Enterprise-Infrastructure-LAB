@@ -4,6 +4,8 @@
 
 Deploy an enterprise print infrastructure by integrating a Windows Server Print Server with a Linux CUPS server. Configure centralized printer management, Active Directory publication, and client printer deployment using enterprise best practices.
 
+![Enterprise Print Services](screenshots/188-1.png)
+
 ---
 
 ## Enterprise Architecture
@@ -87,12 +89,6 @@ Deploy an enterprise print infrastructure by integrating a Windows Server Print 
 - Configured printer sharing
 - Published printers in Active Directory
 
-Screenshot:
-
-```
-screenshots/01-print-server-role-installed.png
-```
-
 ---
 
 ## 2. Linux CUPS Server
@@ -105,11 +101,7 @@ Configured:
 - Firewall rules
 - Enterprise printer queues
 
-Screenshot:
-
-```
-screenshots/02-cups-web-interface.png
-```
+![CUPS Web Interface](screenshots/190.png)
 
 ---
 
@@ -125,13 +117,6 @@ HP LaserJet 4250
 Shared
 Published
 ```
-
-Screenshot:
-
-```
-screenshots/03-cups-printer-created.png
-```
-
 ---
 
 ## 4. Windows Print Management
@@ -144,23 +129,11 @@ Configured:
 - Active Directory publication
 - IPP Class Driver
 
-Screenshot:
-
-```
-screenshots/04-print-management-console.png
-```
-
 ---
 
 ## 5. Active Directory Integration
 
 Verified printer publication within Active Directory.
-
-Screenshot:
-
-```
-screenshots/05-printer-published-active-directory.png
-```
 
 ---
 
@@ -168,23 +141,11 @@ screenshots/05-printer-published-active-directory.png
 
 CLIENT-01 successfully discovered and installed the shared printer.
 
-Screenshot:
-
-```
-screenshots/06-client-printer-installed.png
-```
-
 ---
 
 ## 7. Client Printing
 
 Validated client connectivity by sending a Windows test page to the enterprise print queue.
-
-Screenshot:
-
-```
-screenshots/07-client-print-queue.png
-```
 
 ---
 
@@ -195,12 +156,6 @@ Verified:
 - CUPS scheduler
 - Printer queues
 - Shared printer availability
-
-Screenshot:
-
-```
-screenshots/08-linux-cups-status.png
-```
 
 ---
 
