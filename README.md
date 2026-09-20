@@ -29,6 +29,7 @@ This repository documents the design, deployment and operation of a production-i
 Rather than showcasing isolated technologies, this project demonstrates how enterprise platforms are planned, deployed, integrated, secured and documented as a complete environment.
 
 Every implementation is fully documented with architecture decisions, configuration steps, validation procedures and supporting documentation.
+
 Please go through the folder Volumes in this repository to have an overview of the different types of implementation which have been done and their respective readme.md file.
 ---
 
